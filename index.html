@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="background1.jpg">
+    <center>
+  <div class="container">
+        <h1 class=" btn btn-warning heading">AI PING PONG GAME</h1>
+        <button id="instructionsBtn" class="btn" data-toggle="modal" data-target="#myModal">Instructions</button>
+        <br><br>
+        <button id="playBtn" class="btn btn-success">Play</button>
+        <h3 id="gameStatus"></h3>
+        <div id="canvasContainer"></div>
+    </div>
+</center>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p> 1. First keep your laptop screen straight.<br> 
+                2. Move yourself approximatel 3-4 feet away from the laptop.<br> 
+                3. Move your right wrist in an ascending and descending order, a red dot shoul appear on your right wrist.<br> 
+                4. Now press the play button and again move yourself approximatel 3-4 feet away from the laptop.<br> 
+                5. The red paddel is your paddel, that will move as per the movement of your right wrist.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
